@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Skylar Arce">
+    <meta name="description" content="Skylar Arce's professional website">
+    <meta name="keywords" content="Carnegie Mellon University, Information Systems">
+    <title>Skylar Arce</title> 
+    <link rel="stylesheet" href="../static/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script defer src="../static/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body onload="addYear()">
+    <header>
+        <h1 id="webName">Skylar Arce</h1>
+        <nav id="myTopNav" class="topnav">
+            <a href="index.html" class="active">Home</a>
+            <a href="cv.html">CV</a>
+            <a href="contact.html">Contact Me</a>
+            <a href="fun.html">For Fun</a>
+            <a href="javascript:void(0);" class="icon" >
+                <i class="fa fa-bars" onclick="activeNav()"></i>
+            </a>
+        </nav>
+    </header>
+    <div class="main">
+        <h2 id="greeting">Hi, my name is Skylar!</h2>
+        <img class="classA" src="../static/headshot.jpg" alt="Skylar Arce profile image" width="350px">
+        <div class="classA">
+            <!-- <p id="intro">
+                I am a first year undergraduate student at Carnegie Mellon University 
+                studying Information Systems. I am originally from Los Angeles, California. 
+                At CMU, I am involved in the Society of Hispanic Professional Engineers (SHPE), 
+                Society of Women Engineers (SWE), and User Experience Student Association (UXA)!
+                I am passionate about computer science and social good and am motivated to 
+                use my degree to promote a diverse and equitable space in STEM. I am 
+                interested in learning about the impacts of technology on society and hope 
+                to create technologies and tools that will be implemented in the future to 
+                help serve others. I am most interested in exploring the field of Educational 
+                Technology and Software Development, yet am open to other areas within tech.
+                In the future, I hope to create educational tools that teach children the basics
+                of coding and provides all students with access to STEM resources. I aspire to
+                to be an innvator, leader, and tech trailblazer who works towards bridging the
+                diversity gap in tech fields.
+            </p> -->
+            <div class="classA">
+                <span id="shortIntro">
+                    I am a first year undergraduate student at Carnegie Mellon University 
+                    studying Information Systems. I am originally from Los Angeles, California. 
+                    At CMU, I am involved in the Society of Hispanic Professional Engineers (SHPE), 
+                    Society of Women Engineers (SWE), and User Experience Student Association (UXA)! 
+                    I am passionate about computer science and social good and am motivated to 
+                    use my degree to promote a diverse and equitable space in STEM.
+                </span>
+                <span id="readMore">read more...</span>
+                <span id="longIntro">
+                    I am interested in learning about the impacts of technology on society and hope 
+                    to create technologies and tools that will be implemented in the future to 
+                    help serve others. I am most interested in exploring the field of Educational 
+                    Technology and Software Development, yet am open to other areas within tech.
+                    In the future, I hope to create educational tools that teach children the basics
+                    of coding and provides all students with access to STEM resources. I aspire to
+                    to be an innvator, leader, and tech trailblazer who works towards bridging the
+                    diversity gap in tech fields.
+                </span>
+                <span id="readLess">read less...</span>
+            </div>
+        </div>
+        
+    </div>
+    <footer>
+        <p id="copyYear">Skylar Arce &copy</p>
+    </footer>
+</body> 
+</html>

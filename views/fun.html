@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Skylar Arce">
+    <meta name="description" content="Skylar Arce's professional website">
+    <meta name="keywords" content="Carnegie Mellon University, Information Systems">
+    <title>Skylar Arce</title> 
+    <link rel="stylesheet" href="../static/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script defer src="../static/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+</head>
+<body onload="addYear()">
+    <header>
+        <h1 id="webName">Skylar Arce</h1>
+        <nav id="myTopNav" class="topnav">
+            <a href="index.html">Home</a>
+            <a href="cv.html">CV</a>
+            <a href="contact.html">Contact Me</a>
+            <a href="fun.html" class="active">For Fun</a>
+            <a href="javascript:void(0);" class="icon" >
+                <i class="fa fa-bars" onclick="activeNav()"></i>
+            </a>
+        </nav>
+    </header>
+    <div class="mainFun">
+        
+        <div id="item1">
+            <h2>Things I love to do for fun</h2>
+        <!-- <button id="SeeMoreBTN" onclick="showList()">Click to see...</button> -->
+        <ul id="FavList">
+            <li>Play volleyball</li>
+            <li>Go to concerts</li>
+            <li>Try new places to eat</li>
+            <li>Bake</li>
+            <li>Play board games</li>
+        </ul>
+        </div>
+        <div id="item2" >
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/QKae1k1BDdA?si=b5YAMA6-pYrzS47G" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;" allowfullscreen></iframe>
+        </div>
+        <div id="item3">
+            <h3>My Favorite Place</h3>
+            <div id="map"></div>
+        </div>
+        <div id="item4">
+            <img id="funIMG" src="https://upload.wikimedia.org/wikipedia/commons/b/bf/Algeria_and_Japan_women%27s_national_volleyball_team_at_the_2012_Summer_Olympics_%287913959028%29.jpg" alt="Women's Volleyball">
+        </div>
+    </div>
+    <footer>
+        <p id="copyYear">Skylar Arce &copy</p>
+    </footer>
+</body> 
+</html>
